@@ -3,6 +3,22 @@ import platform
 # ------------ NFT CONFIGURATIONS: ------------ #
 maxNFTs = 3  # The maximum number of NFTs you want to generate
 NFTcollectionName = 'Karambit'  # The name of the NFT Collection
+NFTcollectionDescription = 'Test Collection for Karambits'  # The Description of the NFT Collection
+NFTcollectionBaseUri = 'ipfs://NewUriToReplace'  # The image hosting url of all generated pngs 
+
+# solanaMetadata = {
+#   symbol: "YC",
+#   seller_fee_basis_points: 1000, # Define how much % you want from secondary market sales 1000 = 10%
+#   external_url: "https://www.youtube.com/c/hashlipsnft",
+#   creators: [
+#     {
+#       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+#       share: 100,
+#     },
+#   ],
+# }
+
+
 imageFileFormat = 'PNG'  # Dictate the image extension when Blender renders the images
 # ------------------------------------------------ #
 
@@ -32,5 +48,5 @@ elif platform.system() == windows:
 
 collection_SavePath = save_path + slash + NFTcollectionName + "_Collection"
 collection_PNG_SavePath = collection_SavePath + slash + "PNGs"
-collection_METATAG_SavePath = collection_SavePath + slash + "METATAGs"
+collection_METADATA_SavePath = collection_SavePath + slash + "METADATAs"
 # ------------------------------------------------ #

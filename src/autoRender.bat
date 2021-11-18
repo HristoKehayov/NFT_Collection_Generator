@@ -6,15 +6,12 @@ set blenderFileName=NFTProject_Karambit.blend
 @REM *------------------------------------------*
 
 
-
 @REM *---------- SET MAIN PROJECT DIR ----------*
 set currentDir=%cd%
 cd %currentDir%
 cd ..
-@REM set mainRepoDir = %cd%
 set "mainRepoDir=%cd%"
 @REM *------------------------------------------*
-
 
 
 @REM *---------- START RENDERING ----------*

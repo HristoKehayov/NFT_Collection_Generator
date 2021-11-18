@@ -1,0 +1,17 @@
+{
+    "name": "Undead Gold Carver #2",
+    "description": "Test Collection for Karambits",
+    "image": "ipfs://NewUriToReplace",
+    "dna": "something",
+    "edition": "some edidition",
+    "data": "2021-11-18",
+    "attributes": {
+        "environment_color_red": 0.67,
+        "environment_color_green": 0.69,
+        "environment_color_blue": 0.87,
+        "blade_color_red": 0.28,
+        "blade_color_green": 0.88,
+        "blade_color_blue": 0.16,
+        "handle_color_blue": 0.83
+    }
+}
