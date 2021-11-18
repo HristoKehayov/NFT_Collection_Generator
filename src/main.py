@@ -4,7 +4,7 @@ import sys
 import importlib
 import random
 import json
-from datetime import date
+import time
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(dir_path)
@@ -70,7 +70,7 @@ def render_and_save_collection():
         name = random.choice(knife_names_list)
         finalName = name  + " #" + str(i)
         knife_names_list.remove(name)
-        currentData = date.today()
+        currentData = int(round(time.time() * 1000)) #for getting the current time now in millisecs 
 
         # Data to be written
         metadata ={
