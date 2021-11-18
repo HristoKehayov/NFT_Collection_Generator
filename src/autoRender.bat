@@ -16,6 +16,6 @@ set "mainRepoDir=%cd%"
 
 @REM *---------- START RENDERING ----------*
 cd %blenderInstallDir%
-blender %mainRepoDir%\inputFiles\%blenderFileName% --background --python %currentDir%\main.py
-Pause
+blender %mainRepoDir%\inputFiles\%blenderFileName% --background --factory-startup --python %currentDir%\main.py
+@REM Pause
 @REM *------------------------------------------*

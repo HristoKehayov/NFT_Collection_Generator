@@ -1,17 +1,17 @@
 {
-    "name": "Storm Sabre #3",
+    "name": "Undead Gold Carver #3",
     "description": "Test Collection for Karambits",
     "image": "ipfs://NewUriToReplace",
     "dna": "something",
     "edition": "some edidition",
-    "date": "1637256744999",
+    "date": "1637276482115",
     "attributes": {
-        "environment_color_red": 0.16,
-        "environment_color_green": 0.86,
-        "environment_color_blue": 0.97,
-        "blade_color_red": 0.78,
-        "blade_color_green": 0.05,
-        "blade_color_blue": 0.2,
-        "handle_color_blue": 0.8
+        "environment_color_red": 0.3,
+        "environment_color_green": 0.45,
+        "environment_color_blue": 0.32,
+        "blade_color_red": 0.17,
+        "blade_color_green": 1.0,
+        "blade_color_blue": 0.92,
+        "handle_color_blue": 0.5
     }
 }

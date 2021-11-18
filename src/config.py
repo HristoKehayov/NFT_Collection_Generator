@@ -1,10 +1,11 @@
 import platform
 
 # ------------ NFT CONFIGURATIONS: ------------ #
-maxNFTs = 3  # The maximum number of NFTs you want to generate
+maxNFTs = 5  # The maximum number of NFTs you want to generate
 NFTcollectionName = 'Karambit'  # The name of the NFT Collection
 NFTcollectionDescription = 'Test Collection for Karambits'  # The Description of the NFT Collection
 NFTcollectionBaseUri = 'ipfs://NewUriToReplace'  # The image hosting url of all generated pngs 
+imageFileFormat = 'PNG'  # Dictate the image extension when Blender renders the images
 
 # solanaMetadata = {
 #   symbol: "YC",
@@ -18,8 +19,43 @@ NFTcollectionBaseUri = 'ipfs://NewUriToReplace'  # The image hosting url of all 
 #   ],
 # }
 
+maxNFTsPerPallet = 3 # The maximum number of NFTs for each color pallet
+color_palettes_rarity = { # Drop Chance Percentage
+    "Common": 60,
+    "Rare": 30,
+    "Epic": 5,
+    "Legendary": 5
+}
+color_palettes = {
+    # Red
+    "Common": {
+        "Analogic": ["#ff4d4d", "#b33636", "#ff944d", "#ff4dd3", "#b33693"],
+        "Tetrade": ["#ff4d4d", "##4dff4d", "#36b336", "#ffa64d", "#b37436"],
+        "Mono": ["#ff4d4d", "#b33636", "#ffd3d3", "#ffa6a6", "#ffffff"],
+    }, 
 
-imageFileFormat = 'PNG'  # Dictate the image extension when Blender renders the images
+    # Blue
+    "Rare": {
+        "Analogic": ["#4d4dff", "#3655b3", "#884dff", "#4dffff", "#36b3b3"],
+        "Tetrade": ["#4d4dff", "#ffb84d", "#b38136", "#974dff", "#6a36b3"],
+        "Mono": ["#4d4dff", "#3655b3", "#d3deff", "#a6bcff", "#ffffff"],
+    }, 
+
+    # Purple
+    "Epic": {
+        "Analogic": ["#8a2be2", "#4a1e9e", "#a92be2", "#2d57e2", "#1f3d9e"],
+        "Tetrade": ["#8a2be2", "#e2bf2b", "#9e861e", "#e22bde", "#9e1e9c"],
+        "Mono": ["#8a2be2", "#4a1e9e", "#ddcbff", "#bb98ff", "#ffffff"],
+    },
+
+    # Gold
+    "Legendary": {
+        "Analogic": ["#ffa500", "#b38b00", "#fffa00", "#ff9400", "#b36800"],
+        "Tetrade": ["#ffa500", "#4a08ff", "#3406b3", "#d6ff00", "#96b300"],
+        "Mono": ["#ffa500", "#b38b00", "#fff1bf", "#ffe380", "#ffffff"],
+
+    }
+}
 # ------------------------------------------------ #
 
 

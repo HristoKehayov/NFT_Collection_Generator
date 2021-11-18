@@ -1,17 +1,17 @@
 {
-    "name": "Vengeance Scalpel #2",
+    "name": "Oathkeeper #2",
     "description": "Test Collection for Karambits",
     "image": "ipfs://NewUriToReplace",
     "dna": "something",
     "edition": "some edidition",
-    "date": "1637256729954",
+    "date": "1637276464372",
     "attributes": {
-        "environment_color_red": 1.0,
-        "environment_color_green": 0.72,
-        "environment_color_blue": 0.61,
-        "blade_color_red": 0.14,
-        "blade_color_green": 0.05,
-        "blade_color_blue": 0.94,
-        "handle_color_blue": 0.23
+        "environment_color_red": 0.63,
+        "environment_color_green": 0.55,
+        "environment_color_blue": 0.26,
+        "blade_color_red": 0.26,
+        "blade_color_green": 0.31,
+        "blade_color_blue": 0.99,
+        "handle_color_blue": 0.54
     }
 }
