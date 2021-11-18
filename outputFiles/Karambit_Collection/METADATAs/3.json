@@ -1,17 +1,17 @@
 {
-    "name": "Eternal Steel Sculptor #3",
+    "name": "Storm Sabre #3",
     "description": "Test Collection for Karambits",
     "image": "ipfs://NewUriToReplace",
     "dna": "something",
     "edition": "some edidition",
-    "data": "1637256605709",
+    "date": "1637256744999",
     "attributes": {
-        "environment_color_red": 0.79,
-        "environment_color_green": 0.73,
-        "environment_color_blue": 0.85,
-        "blade_color_red": 0.67,
-        "blade_color_green": 0.02,
-        "blade_color_blue": 0.25,
-        "handle_color_blue": 0.18
+        "environment_color_red": 0.16,
+        "environment_color_green": 0.86,
+        "environment_color_blue": 0.97,
+        "blade_color_red": 0.78,
+        "blade_color_green": 0.05,
+        "blade_color_blue": 0.2,
+        "handle_color_blue": 0.8
     }
 }

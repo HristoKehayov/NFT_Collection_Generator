@@ -70,7 +70,7 @@ def render_and_save_collection():
         name = random.choice(knife_names_list)
         finalName = name  + " #" + str(i)
         knife_names_list.remove(name)
-        currentData = int(round(time.time() * 1000)) #for getting the current time now in millisecs 
+        currentDate = int(round(time.time() * 1000)) #for getting the current time now in millisecs 
 
         # Data to be written
         metadata ={
@@ -79,7 +79,7 @@ def render_and_save_collection():
             "image" : config.NFTcollectionBaseUri,
             "dna" : "something",
             "edition" : "some edidition",
-            "data" : str(currentData),
+            "date" : str(currentDate),
             "attributes" : {
                 "environment_color_red" : randRed_World,
                 "environment_color_green" : randGreen_World,
