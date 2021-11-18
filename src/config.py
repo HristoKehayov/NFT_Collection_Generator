@@ -1,10 +1,5 @@
 import platform
 
-# ------------ CONSTANTS: ------------ #
-BLENDER_DEFAULT_LOCATION = 'C:\Program Files\Blender Foundation\Blender 2.93'
-# ------------------------------------------------ #
-
-
 # ------------ NFT CONFIGURATIONS: ------------ #
 maxNFTs = 3  # The maximum number of NFTs you want to generate
 NFTcollectionName = 'Karambit'  # The name of the NFT Collection
@@ -18,13 +13,6 @@ save_path_windows = r'C:\Users\Hristo-PC-RTX\Desktop\NFT_Collection_Generator\ou
 # Place the path in the '', e.g: save_path_mac = '/Users/Path/to/Blend_My_NFTs'
 # Example mac: /Users/Path/to/Blend_My_NFTs
 # Example windows: C:\Users\Path\to\Blend_My_NFTs
-# ------------------------------------------------ #
-
-
-# ------------ BLENDER CONFIGURATIONS ------------ #
-blender_default_location = 'C:\Program Files\Blender Foundation\Blender 2.93'
-blender_location = '' # Leave Blank to use default installation location
-
 # ------------------------------------------------ #
 
 
@@ -46,4 +34,3 @@ collection_SavePath = save_path + slash + NFTcollectionName + "_Collection"
 collection_PNG_SavePath = collection_SavePath + slash + "PNGs"
 collection_METATAG_SavePath = collection_SavePath + slash + "METATAGs"
 # ------------------------------------------------ #
-
