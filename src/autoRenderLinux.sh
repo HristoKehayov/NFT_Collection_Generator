@@ -1,21 +1,21 @@
-# @echo off
-
-# @REM *---------- CONFIGURE THIS ONLY ----------*
-# set blenderInstallDir=C:\Program Files\Blender Foundation\Blender 2.93
-# set blenderFileName=NFTProject_Karambit.blend
-# @REM *------------------------------------------*
+#!/bin/sh
 
 
-# @REM *---------- SET MAIN PROJECT DIR ----------*
-# set currentDir=%cd%
-# cd %currentDir%
-# cd ..
-# set "mainRepoDir=%cd%"
-# @REM *------------------------------------------*
+# *---------- CONFIGURE THIS ONLY ----------*
+blenderInstallDir="C:\Program Files\Blender Foundation\Blender 2.93"
+blenderFileName="NFTProject_Karambit.blend"
+blenderInstallDir_Final=`echo $blenderInstallDir | sed -e 's/\\/\\\\/g'`
+# *------------------------------------------*
+
+# *---------- SET MAIN PROJECT DIR ----------*
+currentFileDir=$PWD
+cd $currentFileDir
+cd ..
+baseProjectDir=$PWD
+# *------------------------------------------*
 
 
-# @REM *---------- START RENDERING ----------*
-# cd %blenderInstallDir%
-# blender %mainRepoDir%\inputFiles\%blenderFileName% --background --python %currentDir%\main.py
-# Pause
-# @REM *------------------------------------------*
+# *---------- START RENDERING ----------*
+cd $blenderInstallDir_Final
+blender $baseProjectDir\\inputFiles\\$blenderFileName --background --factory-startup --python $currentFileDir\\main.py
+# *------------------------------------------*

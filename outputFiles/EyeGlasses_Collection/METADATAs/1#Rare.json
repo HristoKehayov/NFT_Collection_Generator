@@ -1,0 +1,30 @@
+{
+    "description": "EyeGlasses Collection",
+    "external_url": "https://openseacreatures.io/3",
+    "image": "https://storage.googleapis.com/opensea-prod.appspot.com/EyeGlasses1.png",
+    "name": "Vengeance Scalpel #1",
+    "seller_fee_basis_points": 100,
+    "fee_recipient": "0xA97F337c39cccE66adfeCB2BF99C1DdC54C2D721",
+    "attributes": [
+        {
+            "display_type": "boost_number",
+            "trait_type": "Handle_Mat",
+            "value": 0.81
+        },
+        {
+            "display_type": "boost_number",
+            "trait_type": "Frame_Mat",
+            "value": 0.04
+        },
+        {
+            "display_type": "boost_number",
+            "trait_type": "Eyes_Mat",
+            "value": 0.43
+        },
+        {
+            "display_type": "date",
+            "trait_type": "birthday",
+            "value": 1637858649
+        }
+    ]
+}

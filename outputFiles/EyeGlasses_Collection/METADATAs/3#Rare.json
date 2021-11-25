@@ -1,0 +1,30 @@
+{
+    "description": "EyeGlasses Collection",
+    "external_url": "https://openseacreatures.io/3",
+    "image": "https://storage.googleapis.com/opensea-prod.appspot.com/EyeGlasses3.png",
+    "name": "Hell's Scream #3",
+    "seller_fee_basis_points": 100,
+    "fee_recipient": "0xA97F337c39cccE66adfeCB2BF99C1DdC54C2D721",
+    "attributes": [
+        {
+            "display_type": "boost_number",
+            "trait_type": "Handle_Mat",
+            "value": 0.6
+        },
+        {
+            "display_type": "boost_number",
+            "trait_type": "Frame_Mat",
+            "value": 0.32
+        },
+        {
+            "display_type": "boost_number",
+            "trait_type": "Eyes_Mat",
+            "value": 0.87
+        },
+        {
+            "display_type": "date",
+            "trait_type": "birthday",
+            "value": 1637858652
+        }
+    ]
+}
